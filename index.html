@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!-- <link rel="stylesheet" href="css\style.css"> -->
+        <link rel="stylesheet" href="https://MinoruSakakibara.github.io/random-password/css/style.css">
+        <title>パスワード生成ツール</title>
+    </head>
+    <body>
+        <div class="tool-container">
+            <div class="title">
+                <h1>パスワード自動生成ツール</h1>
+            </div>
+
+            <div class="explain">
+                <p>「生成する」ボタンを押すたびにランダムな10桁のパスワードが生成されます。</p>
+            </div>
+
+            <div class="password-container" id="password">
+            </div>
+
+            <div class="btn">
+                <input type="button" id="btn" value="生成する" onclick="createPassword()">
+                <input type="button" value="リセット" onclick="window.location.reload();">
+            </div>
+        </div>
+    </body>
+    <script src="js\script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+body {
+    background-color: #CBFFD3;
+}
+
+.tool-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.explain {
+    text-align: center;
+}
+
+.password-container {
+    border:1px solid;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    background-color: #FFFFFF;
+}
+
+.btn {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.btn input {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 428px) {
+    .title {
+        font-size: 10px;
+    }
+
+    .password-container {
+        width: 100%;
+        font-size: 30px;
+    }
+}
